@@ -11,4 +11,4 @@ var Llama = new Schema ({
 mongoose.connect(process.env.MONGO_URI);
 
 
-module.exports = mongosse.model("llamas", Llama);
+module.exports = mongoose.model("llamas", Llama);
